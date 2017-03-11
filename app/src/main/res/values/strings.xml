@@ -77,4 +77,6 @@
 
     <!-- email of the supplier-->
     <string name="supplier_email">supplier@gmail.com</string>
+
+    <string name="price"><xliff:g id="productPrice" example="5">%s</xliff:g></string>
 </resources>

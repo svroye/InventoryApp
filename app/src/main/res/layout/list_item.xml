@@ -7,6 +7,7 @@
     android:padding="@dimen/activity_horizontal_margin">
 
     <LinearLayout
+        android:id="@+id/product_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -14,6 +15,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:textAllCaps="true"
             android:id="@+id/textview_product_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,6 +39,16 @@
             android:textSize="12sp"
             tools:text="IN STOCK : 16" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/sell_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/sell_button" />
 
 
 </RelativeLayout>

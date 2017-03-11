@@ -27,8 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/text_margin"
-            android:hint="Product Name"
-            tools:text="Product " />
+            android:hint="Product Name" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,9 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/text_margin"
-            android:hint="Product Price"
-            android:inputType="number"
-            tools:text="Product " />
+            android:hint="Product Price (x100)"
+            android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -59,8 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/text_margin"
             android:hint="Product Quantity"
-            android:inputType="number"
-            tools:text="Product " />
+            android:inputType="number" />
 
         <TextView
             android:layout_width="match_parent"

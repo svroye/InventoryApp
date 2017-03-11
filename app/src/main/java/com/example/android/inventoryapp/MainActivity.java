@@ -18,9 +18,11 @@ import android.support.design.widget.FloatingActionButton;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static android.R.attr.name;
 import static android.R.interpolator.linear;
@@ -36,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     ProductHelper mProductHelper;
     ProductCursorAdapter adapter;
     private static final int MY_PERMISSIONS_REQUEST = 2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 startActivity(intent);
             }
         });
+
 
         //find listview from xml and set the view to the listview in case the list is empty
         ListView listView = (ListView) findViewById(R.id.list_view);
@@ -76,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 startActivity(intent);
             }
         });
+
 
         // ask permission to the user for accesing the storage of the phone
         requestPermissions();
