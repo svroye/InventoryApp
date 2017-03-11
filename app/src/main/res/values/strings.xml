@@ -1,0 +1,80 @@
+
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">InventoryApp</string>
+
+    <!-- activity name for new product-->
+    <string name="new_product">Add new product</string>
+
+    <!-- activity name for editing existing product-->
+    <string name="edit_product">Edit product</string>
+
+    <!-- name of the product-->
+    <string name="product_name">Product Name</string>
+
+    <!-- name of the product-->
+    <string name="product_quantity">Quantity</string>
+
+    <!-- name of the product-->
+    <string name="product_price">Price</string>
+
+    <!-- string for the text field image-->
+    <string name="image_view">Image</string>
+
+    <!-- empty list text -->
+    <string name="empty_view">No products yet. Add new products by clicking the button at the bottom of the screen.</string>
+
+    <!-- product saved -->
+    <string name="product_saved">Product saved</string>
+
+    <!--- text to tell user to press the picture to take a new one -->
+    <string name="new_picture">Press the picture to take a new one</string>
+
+    <!-- sell button, to sell one item of the product -->
+    <string name="sell_button">Sell</string>
+
+    <!-- order button, to order one item of the product-->
+    <string name="order_button">Order</string>
+
+    <!-- text when item is sold-->
+    <string name="item_sold">1 item sold</string>
+
+    <!-- text when no stock is available to sell new item -->
+    <string name="no_stock">No stock left. Please order new items of this product.</string>
+
+    <!-- text when item is sold-->
+    <string name="item_ordered">1 item ordered</string>
+
+    <!-- message before deleting item -->
+    <string name="delete_product">Delete this product ?</string>
+
+    <!-- positive button delete -->
+    <string name="positive_delete_button">delete</string>
+
+    <!-- negative button delete -->
+    <string name="negative_delete_button">cancel</string>
+
+    <!-- message that product is deleted successfully-->
+    <string name="product_deleted">Product deleted</string>
+
+    <!-- message that product is not deleted successfully-->
+    <string name="product_not_deleted">Error with deleting product</string>
+
+    <!-- confirm order button -->
+    <string name="confirmd_order">confirm order</string>
+
+    <!-- error adding product when not all fields were defined -->
+<string name="error_adding_product">Error with adding product</string>
+
+    <!-- email subject -->
+    <string name="mail_subject">New order</string>
+
+    <!-- mail body-->
+    <string name="mail_body">Product : <xliff:g id="productName" example="Product 1">%s</xliff:g> \n
+    Quantity to order : <xliff:g id="order_quantity" example="5">%d</xliff:g> </string>
+
+    <!-- email of the supplier-->
+    <string name="supplier_email">supplier@gmail.com</string>
+</resources>
